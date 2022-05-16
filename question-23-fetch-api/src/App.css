@@ -1,3 +1,65 @@
 .App {
   text-align: center;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  width: 80%;
+  max-width: 1024px;
+  display: grid;
+  place-items: center;
+  padding-top: 100px;
+}
+
+.label {
+  font-size: 1.5rem;
+  padding-bottom: 28px;
+}
+
+.input {
+  width: 50%;
+  margin: 0 auto;
+  padding: 16px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input::placeholder {
+  font-size: 1.2rem;
+}
+
+.tokens {
+  width: 60%;
+}
+
+.tokenlist {
+  width: 100%;
+}
+
+.tokenlink {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+.listspan {
+  display: block;
+}
+
+.listspan.name {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.font {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.tokeninfo div {
+  padding: 8px 0;
 }
