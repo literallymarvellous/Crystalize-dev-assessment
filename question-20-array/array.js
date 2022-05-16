@@ -3,3 +3,5 @@ is accessed through indices. */
 
 // Example of array
 let numbers = [1, 2, 3];
+
+console.log(numbers);
